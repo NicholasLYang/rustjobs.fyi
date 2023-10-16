@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: 'PP Neue Montreal Mono';
+    src: url('/fonts/PPNeueMontrealMono-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: 'PP Neue Montreal Mono';
+    src: url('/fonts/PPNeueMontrealMono-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: 'PP Neue Montreal Mono';
+    src: url('/fonts/PPNeueMontrealMono-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal Mono';
+    src: url('/fonts/PPNeueMontrealMono-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal Mono';
+    src: url('/fonts/PPNeueMontrealMono-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
 }
