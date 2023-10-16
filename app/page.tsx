@@ -38,7 +38,7 @@ const jobs = [
   },
 ];
 
-function shuffle(array) {
+function shuffle<T>(array: T[]) {
   let currentIndex = array.length;
   let randomIndex;
 
