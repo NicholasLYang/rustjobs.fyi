@@ -79,6 +79,12 @@ const jobs = [
     location: "Remote",
     url: "https://www.notion.so/tabbyml/Careers-35b1a77f3d1743d9bae06b7d6d5b814a?pvs=4",
   },
+  {
+    title: "Compiler, Backend, and Rust/Java Engineer Roles",
+    company: "Feldera",
+    location: "Remote",
+    url: "https://www.feldera.com/careers",
+  }
 ];
 
 function shuffle<T>(array: T[]) {
