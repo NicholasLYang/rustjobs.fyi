@@ -46,6 +46,11 @@ const jobs = [
     company: "1Password",
     url: "https://jobs.lever.co/1password/ba4e4cf1-8d8a-4fc8-8878-4bf055a43f53",
   },
+  {
+    title: "Staff Cloud Engineer",
+    company: "Shuttle",
+    url: "https://www.ycombinator.com/companies/shuttle/jobs/LpJTT9u-staff-cloud-engineer",
+  },
 ];
 
 function shuffle<T>(array: T[]) {
