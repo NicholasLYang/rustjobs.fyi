@@ -75,7 +75,10 @@ export default function Home() {
           <p>Jobs working with the Rust programming language. No crypto.</p>
           <p>
             To add or remove a job,{" "}
-            <a href="" className="underline decoration-red-400">
+            <a
+              href="https://github.com/NicholasLYang/rustjobs.fyi/pulls"
+              className="underline decoration-red-400"
+            >
               open a pull request.
             </a>
           </p>
