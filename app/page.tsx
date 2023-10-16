@@ -62,6 +62,12 @@ const jobs = [
     url: "https://www.ycombinator.com/companies/shuttle/jobs/LpJTT9u-staff-cloud-engineer",
   },
   {
+    title: "Founding Software Engineer",
+    company: "Platformed",
+    location: "London / Hybrid",
+    url: "https://platformed.notion.site/Founding-Software-Engineer-56131f713309412b93109d0b27299c7f",
+  },
+  {
     title: "Senior Software Engineer",
     company: "Bloomberg",
     location: "New York, NY",
