@@ -67,6 +67,18 @@ const jobs = [
     location: "London / Hybrid",
     url: "https://platformed.notion.site/Founding-Software-Engineer-56131f713309412b93109d0b27299c7f",
   },
+  {
+    title: "Senior Software Engineer",
+    company: "Bloomberg",
+    location: "New York, NY",
+    url: "https://devitjobs.us/jobs/Bloomberg-Senior-Software-Engineer",
+  },
+  {
+    title: "Software Engineer (Rust)",
+    company: "TabbyML",
+    location: "Remote",
+    url: "https://www.notion.so/tabbyml/Careers-35b1a77f3d1743d9bae06b7d6d5b814a?pvs=4",
+  },
 ];
 
 function shuffle<T>(array: T[]) {
