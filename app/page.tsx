@@ -61,6 +61,12 @@ const jobs = [
     location: "London / Remote",
     url: "https://www.ycombinator.com/companies/shuttle/jobs/LpJTT9u-staff-cloud-engineer",
   },
+  {
+    title: "Senior Software Engineer",
+    company: "Bloomberg",
+    location: "New York, NY",
+    url: "https://devitjobs.us/jobs/Bloomberg-Senior-Software-Engineer",
+  },
 ];
 
 function shuffle<T>(array: T[]) {
