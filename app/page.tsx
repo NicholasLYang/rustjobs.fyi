@@ -62,10 +62,16 @@ const jobs = [
     url: "https://www.ycombinator.com/companies/shuttle/jobs/LpJTT9u-staff-cloud-engineer",
   },
   {
+    title: "Senior Software Engineer",
+    company: "Bloomberg",
+    location: "New York, NY",
+    url: "https://devitjobs.us/jobs/Bloomberg-Senior-Software-Engineer",
+  },
+  {
     title: "Software Engineer (Rust)",
     company: "TabbyML",
     location: "Remote",
-    url: "https://www.notion.so/tabbyml/Careers-35b1a77f3d1743d9bae06b7d6d5b814a?pvs=4"
+    url: "https://www.notion.so/tabbyml/Careers-35b1a77f3d1743d9bae06b7d6d5b814a?pvs=4",
   },
 ];
 
