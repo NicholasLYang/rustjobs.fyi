@@ -36,6 +36,16 @@ const jobs = [
     company: "Datadog",
     url: "https://careers.datadoghq.com/detail/5382867",
   },
+  {
+    title: "Senior/Staff Software Engineer",
+    company: "Hasura",
+    url: "https://hasura.io/careers/?jobId=FjqRMQHVXKnW",
+  },
+  {
+    title: "Rust Developer",
+    company: "1Password",
+    url: "https://jobs.lever.co/1password/ba4e4cf1-8d8a-4fc8-8878-4bf055a43f53",
+  },
 ];
 
 function shuffle<T>(array: T[]) {
