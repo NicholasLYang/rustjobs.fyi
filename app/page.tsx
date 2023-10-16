@@ -109,7 +109,7 @@ const ppNeueMontrealMono = localFont({
 export default function Home() {
   shuffle(jobs);
   return (
-    <div className="bg-[#1c1c1c] h-screen">
+    <div className="bg-[#1c1c1c] min-h-screen">
       <main className="w-full flex flex-col text-white items-center ">
         <div className="max-w-2xl pt-10">
           <h1 className={`${ppNeueMontrealMono.variable} text-4xl py-5`}>
