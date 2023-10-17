@@ -20,7 +20,7 @@ const jobs = [
     url: "https://gitbutler.homerun.co/senior-rust-developer/en",
   },
   {
-    title: "Senior Software Engineer",
+    title: "Senior Software Engineer - Hyperdrive",
     company: "Cloudflare",
     location: "Remote",
     url: "https://boards.greenhouse.io/cloudflare/jobs/5074114?gh_jid=5074114",
@@ -84,10 +84,23 @@ const jobs = [
     company: "Feldera",
     location: "Remote",
     url: "https://www.feldera.com/careers",
-  }
+  },
+  {
+    title: "Software Engineer, Distributed Systems",
+    company: "OpenAI",
+    location: "San Francisco, CA",
+    url: "https://openai.com/careers/software-engineer-distributed-systems",
+  },
+  {
+    title: "Software Engineer - Voice & Video Infrastructure",
+    company: "Discord",
+    location: "San Francisco, CA / Remote",
+    url: "https://discord.com/jobs/6367013002",
+  },
 ];
 
-function shuffle<T>(array: T[]) {
+function shuffle<T>(oldArray: T[]) {
+  const array = [...oldArray];
   let currentIndex = array.length;
   let randomIndex;
 
@@ -113,11 +126,10 @@ const ppNeueMontrealMono = localFont({
 });
 
 export default function Home() {
-  shuffle(jobs);
   return (
     <div className="bg-[#1c1c1c] min-h-screen">
       <main className="w-full flex flex-col text-white items-center ">
-        <div className="max-w-2xl pt-10">
+        <div className="max-w-2xl w-3/4 pt-10">
           <h1 className={`${ppNeueMontrealMono.variable} text-4xl py-5`}>
             Rust Jobs
           </h1>
@@ -132,7 +144,7 @@ export default function Home() {
             </a>
           </p>
           <ul className="pt-10">
-            {jobs.map(({ title, company, url, location }) => (
+            {shuffle(jobs).map(({ title, company, url, location }) => (
               <li key={url}>
                 <a href={url} className="text-white">
                   {title} at <span className="text-red-300">{company}</span>{" "}
