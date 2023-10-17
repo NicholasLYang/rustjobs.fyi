@@ -97,6 +97,18 @@ const jobs = [
     location: "San Francisco, CA / Remote",
     url: "https://discord.com/jobs/6367013002",
   },
+  {
+    title: "Software Engineer",
+    company: "Warp",
+    location: "Remote (US / Canada)",
+    url: "https://boards.greenhouse.io/warp/jobs/4324888004",
+  },
+  {
+    title: "Senior or Staff Software Engineer, Rust",
+    company: "Apollo",
+    location: "East Coast",
+    url: "https://www.apollographql.com/careers/job/?id=4b4c45dc-c2e0-4710-94b5-bc49825e9307",
+  },
 ];
 
 function shuffle<T>(oldArray: T[]) {
