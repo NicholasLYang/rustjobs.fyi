@@ -20,10 +20,10 @@ const jobs = [
     url: "https://gitbutler.homerun.co/senior-rust-developer/en",
   },
   {
-    title: "Senior Software Engineer - Hyperdrive",
+    title: "Software Engineer (Mid-level) - Zero Trust Client",
     company: "Cloudflare",
     location: "Remote",
-    url: "https://boards.greenhouse.io/cloudflare/jobs/5074114?gh_jid=5074114",
+    url: "https://boards.greenhouse.io/cloudflare/jobs/4945500?gh_jid=4945500",
   },
   {
     title: "Software Engineer (Rust/TypeScript)",
