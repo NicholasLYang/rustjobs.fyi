@@ -109,6 +109,36 @@ const jobs = [
     location: "East Coast",
     url: "https://www.apollographql.com/careers/job/?id=4b4c45dc-c2e0-4710-94b5-bc49825e9307",
   },
+  {
+    title: "Sports Modeling Engineer",
+    company: "Swish Analytics",
+    location: "San Francisco, CA",
+    url: "https://www.linkedin.com/jobs/rust-jobs/?currentJobId=3739454759",
+  },
+  {
+    title: "Rust Developer",
+    company: "Aira",
+    location: "Stockholm / Hybrid Remote",
+    url: "https://career.airahome.com/jobs/3113401-rust-developer",
+  },
+  {
+    title: "System Software Engineer",
+    company: "Canonical",
+    location: "Remote",
+    url: "https://boards.greenhouse.io/canonical/jobs/4383713",
+  },
+  {
+    title: "Software Engineer (Rust) - Creative Play",
+    company: "Embark Studios",
+    location: "Stockholm / Hybrid Remote",
+    url: "https://careers.embark-studios.com/jobs/286860-software-engineer-rust-creative-play",
+  },
+  {
+    title: "Senior Software Engineer, Web Infrastructure",
+    company: "Bytedance",
+    location: "Mountain View, CA",
+    url: "https://careers.tiktok.com/position/7193184881110829372/detail",
+  },
 ];
 
 function shuffle<T>(oldArray: T[]) {
