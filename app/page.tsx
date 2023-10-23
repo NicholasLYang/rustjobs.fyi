@@ -139,6 +139,12 @@ const jobs = [
     location: "Mountain View, CA",
     url: "https://careers.tiktok.com/position/7193184881110829372/detail",
   },
+  {
+    title: "Senior Software Engineer, Programming Languages",
+    company: "Grit",
+    location: "New York City / Remote",
+    url: "https://getgrit.notion.site/PL-Compiler-Engineer-Grit-a251c6a793574c2db6d005d09e59e25b"
+  }
 ];
 
 function shuffle<T>(oldArray: T[]) {
