@@ -143,8 +143,20 @@ const jobs = [
     title: "Senior Software Engineer, Programming Languages",
     company: "Grit",
     location: "New York City / Remote",
-    url: "https://getgrit.notion.site/PL-Compiler-Engineer-Grit-a251c6a793574c2db6d005d09e59e25b"
-  }
+    url: "https://getgrit.notion.site/PL-Compiler-Engineer-Grit-a251c6a793574c2db6d005d09e59e25b",
+  },
+  {
+    title: "Software Engineering Intern",
+    company: "Synopsys",
+    location: "Belfast, Northern Ireland",
+    url: "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25235&siteid=5359&jobid=1996774#jobDetails=1996774_5359",
+  },
+  {
+    title: "Senior Software Engineer",
+    company: "Prisma",
+    location: "Remote",
+    url: "https://boards.greenhouse.io/prisma/jobs/6940273002",
+  },
 ];
 
 function shuffle<T>(oldArray: T[]) {
