@@ -92,6 +92,18 @@ const jobs = [
     url: "https://openai.com/careers/software-engineer-distributed-systems",
   },
   {
+    title: "Senior Software Engineer, Audio/Video Products",
+    company: "Discord",
+    location: "San Francisco, CA / Remote",
+    url: "https://discord.com/jobs/6845495002",
+  },
+  {
+    title: "Senior Software Engineer, Safety Orchestration",
+    company: "Discord",
+    location: "San Francisco, CA / Remote",
+    url: "https://discord.com/jobs/6938027002",
+  },
+  {
     title: "Software Engineer - Voice & Video Infrastructure",
     company: "Discord",
     location: "San Francisco, CA / Remote",
