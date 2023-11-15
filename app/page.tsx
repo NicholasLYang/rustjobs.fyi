@@ -169,6 +169,18 @@ const jobs = [
     location: "Remote",
     url: "https://boards.greenhouse.io/prisma/jobs/6940273002",
   },
+  {
+    title: "Senior Manager, Software Developer",
+    company: "Amazon",
+    location: "Boston, MA",
+    url: "https://www.amazon.jobs/en/jobs/2479470/sr-manager-software-dev-rust-platform",
+  },
+  {
+    title: "Senior Software Engineer",
+    company: "Genius Sports",
+    location: "Remote, USA",
+    url: "https://boards.greenhouse.io/geniussports/jobs/5780126003",
+  },
 ];
 
 function shuffle<T>(oldArray: T[]) {
