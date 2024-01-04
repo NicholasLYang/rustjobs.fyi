@@ -175,6 +175,12 @@ const jobs = [
     location: "Remote, USA",
     url: "https://boards.greenhouse.io/geniussports/jobs/5780126003",
   },
+  {
+    title: "Software Engineer, Turbopack",
+    company: "Vercel",
+    location: "Remote",
+    url: "https://vercel.com/careers/software-engineer-turbopack-us-5022287004",
+  },
 ];
 
 function shuffle<T>(oldArray: T[]) {
